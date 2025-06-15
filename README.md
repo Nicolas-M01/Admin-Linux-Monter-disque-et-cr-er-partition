@@ -1,4 +1,4 @@
-# Admin-Linux-Monter-disque-et-creer-partition
+# 🖥️ Admin Linux : Monter un disque et créer une partition
 
 ![Capture d'écran 2025-06-15 155803](https://github.com/user-attachments/assets/f964b9c5-c8c0-4393-8e48-6884cdf53f9f)  
 
@@ -10,17 +10,20 @@
 ![Capture d'écran 2025-06-15 160401](https://github.com/user-attachments/assets/033f81e5-b9d1-4d73-bf47-59f682c91217)  
 ![Capture d'écran 2025-06-15 160459](https://github.com/user-attachments/assets/db577207-2fe2-4bf4-a64c-c0a3b83c979e)  
 
-Le disque est créé et "branché". On  peut démarrer la machine.  
-Avec `lsblk` on voit qu'il est "physiquement existant"  
+## 🔌 1. Disque branché et détection  
+Le disque est créé et "branché". On peut démarrer la machine.  
+Avec la commande suivante, on voit qu'il est physiquement détecté : `lsblk`  
 
 ![Capture d'écran 2025-06-15 160703](https://github.com/user-attachments/assets/71ab4fc8-8a9e-4680-9b62-87e1e383dde9)  
 
+## 🛠️ 2. Partitionnement avec cfdisk  
 Puis avec `cfdisk`, donc en mode "semi graphique" on va le partitionner :  
-( tip: on peut le faire aussi avec "fdisk", en CLI pur)  
+( On peut le faire aussi avec "fdisk", en CLI pur)  
 ![Capture d'écran 2025-06-15 161024](https://github.com/user-attachments/assets/2bbd8ca3-a9ce-4aaa-b5ec-ae205604b80f)  
 
-On choisit notre table de partition. Ici on prend "GPT", car c'est le nouveau standard, plus fiable, utilisé avec les systèmes modernes (Windows 10/11, Linux, macOS).
-( => MBR (aussi appelé "DOS partition table") : ancien standard, limité à 4 partitions primaires et 2 To de disque.)  
+On choisit notre table de partition. Ici on prend "GPT", car c'est le nouveau standard, plus fiable, utilisé avec les systèmes modernes (Windows 10/11, Linux, macOS).  
+> ℹ️ MBR (aussi appelé "DOS partition table") : ancien standard, limité à 4 partitions primaires et 2 To de disque.)  
+
 ![Capture d'écran 2025-06-15 161034](https://github.com/user-attachments/assets/472a23f4-cd65-4dcf-8457-f7c6262d3f91)  
 
 On écrit sur toute la partition dans notre cas :  
