@@ -1,5 +1,22 @@
 # 🖥️ Admin Linux : Monter un disque et créer une partition
 
+## 📚 Sommaire
+
+- [📸 Captures d’écran](#-captures-décran)
+- [🔌 1. Disque branché et détection](#-1-disque-branché-et-détection)
+- [🛠️ 2. Partitionnement avec cfdisk](#-2-partitionnement-avec-cfdisk)
+- [📝 3. Création et écriture de la partition](#-3-création-et-écriture-de-la-partition)
+- [💾 4. Enregistrement des modifications](#-4-enregistrement-des-modifications)
+- [🔍 5. Vérification du disque](#-5-vérification-du-disque)
+- [📂 6. Création du système de fichiers](#-6-création-du-système-de-fichiers)
+- [📁 7. Création du point de montage](#-7-création-du-point-de-montage)
+- [🔗 8. Montage du disque](#-8-montage-du-disque)
+- [🔐 9. Automatiser le montage au démarrage](#-9-automatiser-le-montage-au-démarrage)
+- [🔄 10. Vérification après redémarrage](#-10-vérification-après-redémarrage)
+
+
+
+
 ![Capture d'écran 2025-06-15 155803](https://github.com/user-attachments/assets/f964b9c5-c8c0-4393-8e48-6884cdf53f9f)  
 
 ![Capture d'écran 2025-06-15 155817](https://github.com/user-attachments/assets/70643438-6ca5-4cef-ad41-51d364bd8b8e)  
