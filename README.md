@@ -11,3 +11,20 @@
 ![Capture d'écran 2025-06-15 160459](https://github.com/user-attachments/assets/db577207-2fe2-4bf4-a64c-c0a3b83c979e)
 
 Le disque est créé et "branché". On  peut démarrer la machine.  
+
+![Capture d'écran 2025-06-15 160703](https://github.com/user-attachments/assets/71ab4fc8-8a9e-4680-9b62-87e1e383dde9)  
+
+![Capture d'écran 2025-06-15 161024](https://github.com/user-attachments/assets/2bbd8ca3-a9ce-4aaa-b5ec-ae205604b80f)  
+
+![Capture d'écran 2025-06-15 161034](https://github.com/user-attachments/assets/472a23f4-cd65-4dcf-8457-f7c6262d3f91)  
+
+![Capture d'écran 2025-06-15 161049](https://github.com/user-attachments/assets/db0266af-9fb6-48de-9793-b242ec28b850)  
+
+![Capture d'écran 2025-06-15 161231](https://github.com/user-attachments/assets/8df43488-2751-4718-a096-1df0041edc78)  
+
+![Capture d'écran 2025-06-15 161242](https://github.com/user-attachments/assets/ccc2303b-aa94-4977-839d-2bc729d68f1d)  
+
+![Capture d'écran 2025-06-15 161257](https://github.com/user-attachments/assets/97aaf206-cf1d-424b-b4ff-46da80fae1ef)  
+
+![Capture d'écran 2025-06-15 161318](https://github.com/user-attachments/assets/683fab94-ccd3-4467-a193-67c952d1832c)  
+
