@@ -34,6 +34,8 @@ Puis on enregistre
 ![Capture d'écran 2025-06-15 161257](https://github.com/user-attachments/assets/97aaf206-cf1d-424b-b4ff-46da80fae1ef)  
 
 
-On verifie que notre disque est bien 
+On verifie que notre disque est bien présent :  
 ![Capture d'écran 2025-06-15 161318](https://github.com/user-attachments/assets/683fab94-ccd3-4467-a193-67c952d1832c)  
 
+On crée notre système de fichiers et on lui attribue une "étiquette". en `ext4`, qui est le dernier format de fichiers sur linux.  
+![Capture d'écran 2025-06-15 162500](https://github.com/user-attachments/assets/82613663-aaf9-4243-aa2f-bccdefffc7fe)
