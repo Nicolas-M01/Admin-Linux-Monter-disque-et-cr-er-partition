@@ -26,42 +26,45 @@ On choisit notre table de partition. Ici on prend "GPT", car c'est le nouveau st
 
 ![Capture d'écran 2025-06-15 161034](https://github.com/user-attachments/assets/472a23f4-cd65-4dcf-8457-f7c6262d3f91)  
 
+## 📝 3. Création et écriture de la partition  
 On écrit sur toute la partition dans notre cas :  
-![Capture d'écran 2025-06-15 161049](https://github.com/user-attachments/assets/db0266af-9fb6-48de-9793-b242ec28b850)  
-
-
 ![Capture d'écran 2025-06-15 161231](https://github.com/user-attachments/assets/8df43488-2751-4718-a096-1df0041edc78)  
 
-Puis on enregistre  
+## 💾 4. Enregistrement des modifications  
+Puis on enregistre la nouvelle table de partitions :  
 ![Capture d'écran 2025-06-15 161242](https://github.com/user-attachments/assets/ccc2303b-aa94-4977-839d-2bc729d68f1d)  
 
 ![Capture d'écran 2025-06-15 161257](https://github.com/user-attachments/assets/97aaf206-cf1d-424b-b4ff-46da80fae1ef)  
 
-
+## 🔍 5. Vérification du disque  
 On verifie que notre disque est bien présent :  
 ![Capture d'écran 2025-06-15 161318](https://github.com/user-attachments/assets/683fab94-ccd3-4467-a193-67c952d1832c)  
 
+## 📂 6. Création du système de fichiers  
 On crée notre système de fichiers et on lui attribue une "étiquette". en `ext4`, qui est le dernier format de fichiers sur linux.  
 ![Capture d'écran 2025-06-15 162500](https://github.com/user-attachments/assets/82613663-aaf9-4243-aa2f-bccdefffc7fe)  
 
+## 📁 7. Création du point de montage  
 On crée un dossier pour y monter notre disque dans le dossier courant de l'utilisateur :  
 ![Capture d'écran 2025-06-15 163108](https://github.com/user-attachments/assets/26a367e4-bd82-46db-8468-5ddef8ae6a1b)  
 
-
 ![Capture d'écran 2025-06-15 163204](https://github.com/user-attachments/assets/79e193a3-cb53-4497-9148-d95ff36e4620)  
 
+## 🔗 8. Montage du disque  
 Je monte le disque (le disque "sdb1" dans mon dossier "data" qui se trouve dans mon dossier local" :  
 ![Capture d'écran 2025-06-15 164150](https://github.com/user-attachments/assets/20810fed-71ad-43b0-a0ab-19c02e4610f7)  
 
+## 🔐 9. Automatiser le montage au démarrage  
 La commande "blkid", permet lister les périphériques de stockage et notamment de lister les "UUID". Je vais ensuite envoyer la ligne concerant mon "sdb1" dans le fichier "/etc/fstab" pour pouvoir redémarrer le disque automatiquement au démarrage.  
 ![Capture d'écran 2025-06-15 171541](https://github.com/user-attachments/assets/30f6b6f4-738d-4f41-9fa2-8c1ca6910af4)  
 
-Edition du fichier `/etc/fstab` :  
-![Capture d'écran 2025-06-15 171602](https://github.com/user-attachments/assets/281e8ac1-a531-49f6-8004-188cf9e7d2bb)
+### Edition du fichier `/etc/fstab` :  
+![Capture d'écran 2025-06-15 171602](https://github.com/user-attachments/assets/281e8ac1-a531-49f6-8004-188cf9e7d2bb)  
 
 Ne garder que les parties recnonnues par le fichier, on peut s'inspirer des lignes du dessus pour la syntaxe :  
 ![Capture d'écran 2025-06-15 171707](https://github.com/user-attachments/assets/fdeba528-52b9-493b-ba0d-09958d7f21a5)  
 
+## 🔄 10. Vérification après redémarrage  
 Après redémarrage du PC, on peut effectuer la commande "mount" avec un filtre pour récupérer les disque "sd*", et on voit qu'il est bien actif au lancement de la machine :  
-![Capture d'écran 2025-06-15 172155](https://github.com/user-attachments/assets/52af8379-8b6c-4af1-bada-0897d5ca78d2)
+![Capture d'écran 2025-06-15 172155](https://github.com/user-attachments/assets/52af8379-8b6c-4af1-bada-0897d5ca78d2)  
 
